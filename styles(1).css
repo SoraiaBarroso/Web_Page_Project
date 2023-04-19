@@ -1,0 +1,185 @@
+body{
+    background-color: hsl(44, 88%, 87%);
+    font-family: monospace;   
+    font-size: 18px;
+    color: whitesmoke;
+    /*cursor: url("data:image/svg+xml,%3Csvg height='40px' width='40px' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 512 512' xml:space='preserve' fill='%23000000' transform='rotate(180)'%3E%3Cg id='SVGRepo_bgCarrier' stroke-width='0'%3E%3C/g%3E%3Cg id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'%3E%3C/g%3E%3Cg id='SVGRepo_iconCarrier'%3E%3Cpath style='fill:%23C5DCFD;' d='M256,512c-3.245,0-6.492-0.94-9.311-2.82c-67.749-45.169-108.197-120.744-108.197-202.164v-21.638 c0-9.273,7.514-16.787,16.787-16.787h201.443c9.273,0,16.787,7.514,16.787,16.787v21.639c0,81.421-40.449,156.994-108.197,202.164 C262.492,511.06,259.245,512,256,512z'%3E%3C/path%3E%3Cg%3E%3Cpath style='fill:%23B1C6E4;' d='M356.721,268.59H256V512c3.245,0,6.492-0.94,9.311-2.82 c67.749-45.169,108.197-120.744,108.197-202.164v-21.638C373.508,276.104,365.994,268.59,356.721,268.59z'%3E%3C/path%3E%3Cpath style='fill:%23B1C6E4;' d='M256,380.503c-9.273,0-16.787-7.514-16.787-16.787V229.421c0-9.273,7.514-16.787,16.787-16.787 c9.273,0,16.787,7.514,16.787,16.787v134.295C272.787,372.989,265.273,380.503,256,380.503z'%3E%3C/path%3E%3C/g%3E%3Cpath style='fill:%239DB0CA;' d='M272.787,363.716V229.421c0-9.273-7.514-16.787-16.787-16.787v167.869 C265.273,380.503,272.787,372.989,272.787,363.716z'%3E%3C/path%3E%3Cpath style='fill:%236E6057;' d='M289.574,246.208h-67.148c-9.273,0-16.787-7.514-16.787-16.787V50.361C205.639,22.591,228.23,0,256,0 s50.361,22.591,50.361,50.361v179.06C306.361,238.694,298.847,246.208,289.574,246.208z'%3E%3C/path%3E%3Cpath style='fill:%23615349;' d='M289.574,246.208c9.273,0,16.787-7.514,16.787-16.787V50.361C306.361,22.591,283.77,0,256,0v246.208 H289.574z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E") 16 16, pointer;*/
+}
+
+.video-header{
+    max-width: 10vw;
+    max-height: 10vh;
+}
+
+nav{
+    display: flex;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: rgb(157, 176, 137);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover{
+    color: rgb(1, 142, 102);
+}
+
+header{
+    background-image: url("pexels-daniel-frese-1055408.jpg");
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+main{
+    margin:auto;
+}
+
+.promotion{
+    font-size: 30px;
+    justify-content: space-evenly;
+    color: rgb(0, 168, 134);
+    width: 99%;
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.leaf{
+    padding-top: 20px;
+    animation: myanimation 3s infinite ease-in;
+}
+
+@keyframes myanimation {
+    0%{
+        
+    }
+    100%{
+        transform: rotateY(720deg);
+    }
+}
+
+.header-logo{
+    margin-bottom: 10px;
+    width: 17%;
+}
+
+article{
+    padding: 30px;
+    margin:auto;
+}
+
+
+footer{
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-logo{
+    padding: 10px;
+    border: 3px solid rgb(157, 176, 137);
+    width: 7%;
+}
+
+.copyrigth{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.copyrigth-simbol{
+    margin-right: 5px;
+}
+
+.banner{
+    height: 300px;
+    width: 100%;
+    background-image: url("pexels-daniel-frese-1055408.jpg");
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discount{
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin: 10px;
+    background-color: rgba(157, 176, 137, .9);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(1, 108, 78);
+}
+
+.discount > p{
+    font-size: 15px;
+    font-style: oblique;
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}   
+
+.discount > a{
+    padding: 5px;
+    color: rgb(1, 108, 78);
+    border: 2px solid rgb(1, 108, 78);
+    background-color:rgba(255, 174, 24, .9);
+    border-radius: 15px;
+}
+
+.discount > a:hover{
+    color: white;    
+}
+
+.banner-text{
+    font-style: oblique;
+    border-top: 2px solid rgb(1, 108, 78);
+    border-bottom: 2px solid rgb(1, 108, 78);
+    font-size: 20px;
+    background-color: rgba(157, 176, 137, .90);
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.photos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plants > div{
+    font-style: oblique;
+    padding: 5px;
+    text-align: start;
+    background-color: rgb(157, 176, 137);
+    margin: 10px;
+    width: 60%;
+}
+
+.plants{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.photo1, .photo2, .photo3{
+    max-width: 100%;
+}
